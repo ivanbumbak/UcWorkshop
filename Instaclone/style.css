@@ -12,13 +12,13 @@ body {
 .nav-content-container {
     display: flex;
     justify-content: space-around;
+    padding: 1em;
 }
 
 /* Icons */
 .fa-instagram, .fa-search, .fa-times-circle, 
 .fa-compass, .fa-heart, .fa-user {
     font-size: 1.1em;
-    padding: 5px;
 }
 
 .fa-compass:hover,
