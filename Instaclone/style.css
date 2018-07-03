@@ -1,8 +1,26 @@
-/* body {
+body {
     padding: 0;
     margin: 0;
-} */
+}
 
+/* Main navigation container */
 .nav-container {
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.nav-content-container {
+    display: flex;
+}
+
+/* Icons */
+.fa-instagram, .fa-search, .fa-compass,
+.fa-heart, .fa-user {
+    font-size: 1.2em;
+    padding: 5px;
+}
+
+.fa-compass:hover,
+.fa-heart:hover,
+.fa-user:hover {
+    color: #223142;
 }
