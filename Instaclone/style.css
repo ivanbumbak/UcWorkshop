@@ -8,14 +8,16 @@ body {
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
+/* Content inside of navigation container */
 .nav-content-container {
     display: flex;
+    justify-content: space-around;
 }
 
 /* Icons */
-.fa-instagram, .fa-search, .fa-compass,
-.fa-heart, .fa-user {
-    font-size: 1.2em;
+.fa-instagram, .fa-search, .fa-times-circle, 
+.fa-compass, .fa-heart, .fa-user {
+    font-size: 1.1em;
     padding: 5px;
 }
 
@@ -23,4 +25,14 @@ body {
 .fa-heart:hover,
 .fa-user:hover {
     color: #223142;
+}
+
+.instagram-link {
+    text-decoration: none;
+}
+
+/* Search input */
+#search-input {
+    margin-bottom: 5px;
+    padding: 2px;
 }
