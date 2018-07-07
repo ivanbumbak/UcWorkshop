@@ -13,12 +13,36 @@ body {
     display: flex;
     justify-content: space-around;
     padding: 1em;
+    align-items: center;
+}
+
+.nav-container a {
+    font-size: 1.1em;
+}
+
+/* Middle section icons */
+.nav-content-middle {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid gray;
+    padding: 0.25em;
+    border-radius: 2px;
 }
 
 /* Icons */
 .fa-instagram, .fa-search, .fa-times-circle, 
 .fa-compass, .fa-heart, .fa-user {
-    font-size: 1.1em;
+    font-size: 1.4em;
+    padding: 5px 5px;
+}
+
+.fa-instagram {
+    font-size: 1.6em;
+}
+
+.fa-search, .fa-times-circle {
+    font-size: 1em;
+    margin: 5px 0;
 }
 
 .fa-compass:hover,
@@ -29,10 +53,27 @@ body {
 
 .instagram-link {
     text-decoration: none;
+    font-family: 'Rochester', cursive;
+}
+
+.instagram-title {
+    font-size: 1.6em;
+    font-weight: 400;
+    padding-left: 10px;
+    margin-left: 5px;
+    border-left: 1px solid;
 }
 
 /* Search input */
 #search-input {
-    margin-bottom: 5px;
-    padding: 2px;
+    margin: 5px;
+    padding: 5px;
+    border: none;
+}
+
+/*Media Queries */
+@media screen and (max-width: 560px) {
+    .instagram-link span {
+        display: none;
+    }
 }
