@@ -72,7 +72,11 @@ body {
 }
 
 /*Media Queries */
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 564px) {
+    .nav-content-container {
+        padding: 0.5em;
+    }
+
     .instagram-link span {
         display: none;
     }
