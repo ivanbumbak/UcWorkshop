@@ -38,6 +38,7 @@ body {
 
 .fa-instagram {
     font-size: 1.6em;
+    color: #bc2a8d;
 }
 
 .fa-search, .fa-times-circle {
@@ -62,6 +63,7 @@ body {
     padding-left: 10px;
     margin-left: 5px;
     border-left: 1px solid;
+    color: #bc2a8d;
 }
 
 /* Search input */
