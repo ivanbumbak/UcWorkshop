@@ -132,6 +132,42 @@ body {
     object-fit: cover;
 }
 
+/* Footer */
+footer {
+    border-top: 1px solid rgb(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.footer-content {
+    width: 100%;
+    max-width: var(--default-window-width);
+    height: 100%;
+    margin: 0 auto;
+    padding: 26px 40px;
+    display: table;
+}
+
+.footer-nav {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    float: left;
+}
+
+.footer-nav li {
+    display: inline-block;
+    margin-right: 10px;
+    text-transform: uppercase;
+    color: #003569;
+    font-size: 12px;
+}
+
+.footer-copyright {
+    font-size: 12px;
+    float: right;
+    color: #999;
+}
+
 /*Media Queries */
 @media screen and (max-width: 570px) {
     .nav-content-container {
