@@ -46,10 +46,16 @@ body {
     margin: 5px 0;
 }
 
+.fa-compass,
+.fa-heart,
+.fa-user {
+    color: #223142;
+}
+
 .fa-compass:hover,
 .fa-heart:hover,
 .fa-user:hover {
-    color: #223142;
+    color: #0000FF;
 }
 
 .instagram-link {
